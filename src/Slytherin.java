@@ -1,9 +1,10 @@
 public class Slytherin extends Hogwarts {
-    int cunning; ///Хитрость
-    int determination; //Решительность
-    int ambition; // Амбициозность
-    int resourcefulness; // Находчивость
-    int lustForPower; // жажда власти
+
+    public int cunning; ///Хитрость
+    public int determination; //Решительность
+    public int ambition; // Амбициозность
+    public int resourcefulness; // Находчивость
+    public int lustForPower; // жажда власти
 
     public Slytherin(String fullName, int witchcraft, int transgress, int cunning, int determination, int ambition, int resourcefulness, int lustForPower) {
         super(fullName, witchcraft, transgress);

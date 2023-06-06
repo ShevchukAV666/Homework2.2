@@ -1,8 +1,8 @@
 public class Gryffindor extends Hogwarts {
 
-    int nobility; //благородство
-    int honor; //честь
-    int bravery; //храбрость
+    public int nobility; //благородство
+    public int honor; //честь
+    public int bravery; //храбрость
 
     public Gryffindor(String fullName, int witchcraft, int transgress, int nobility, int honor, int bravery) {
         super(fullName, witchcraft, transgress);

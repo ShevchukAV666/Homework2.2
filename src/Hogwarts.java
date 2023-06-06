@@ -1,8 +1,8 @@
 public class Hogwarts {
 
-     String fullName; //полное имя студента
-     int witchcraft; //сила колдовства
-     int transgress; //расстояние трансгресии
+    private String fullName; //полное имя студента
+    private int witchcraft; //сила колдовства
+    private int transgress; //расстояние трансгресии
 
 
     public Hogwarts (String fullName, int witchcraft, int transgress) {
